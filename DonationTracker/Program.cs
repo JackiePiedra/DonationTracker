@@ -26,7 +26,7 @@ namespace DonationTracker
             string donorName;
             string donorAddress;
             string donorEmail;
-            string fiscalYear;
+            //string fiscalYear;
             double donationTotal;
 
             //collecting donation information from donor
@@ -60,6 +60,7 @@ namespace DonationTracker
             Console.WriteLine("\nThank you for your donation! Please see your receipt below:");
             
             Console.WriteLine("\nDonor Name:  "+ donorName);
+            Console.WriteLine("Donor Address:  " + donorAddress);
             Console.WriteLine("Donor E-mail:  " + donorEmail);
             Console.WriteLine("Donation Year 2017");
             Console.WriteLine("Donation Total:  "+ donationTotal);
